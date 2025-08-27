@@ -1,0 +1,49 @@
+{
+  "user": {
+    "name": "Rahul L.",
+    "score": 767,
+    "scoreDate": "19th Apr '22",
+    "percentile": 70
+  },
+  "scoreHistory": [
+    { "month": "JAN", "score": null },
+    { "month": "FEB", "score": null },
+    { "month": "MAR", "score": null },
+    { "month": "APR", "score": 520 },
+    { "month": "MAY", "score": 580 },
+    { "month": "JUN", "score": 493 },
+    { "month": "JUL", "score": null },
+    { "month": "AUG", "score": 510 },
+    { "month": "SEP", "score": null },
+    { "month": "OCT", "score": null },
+    { "month": "NOV", "score": null },
+    { "month": "DEC", "score": null }
+  ],
+  "recentScores": [
+    { "score": 493, "date": "18/08/2022", "trend": "up", "color": "green" },
+    { "score": 490, "date": "16/08/2022", "trend": "down", "color": "red" },
+    { "score": 510, "date": "14/08/2022", "trend": "up", "color": "green" },
+    { "score": 509, "date": "12/08/2022", "trend": "right", "color": "blue" },
+    { "score": null, "date": "09/08/2022", "trend": "none", "color": "gray" }
+  ],
+  "whereYouStand": {
+    "bands": [
+      { "range": "300-722", "percentage": 15, "color": "#E15825" },
+      { "range": "723-747", "percentage": 22, "color": "#F18200" },
+      { "range": "748-764", "percentage": 26, "color": "#FCD800" },
+      { "range": "765-777", "percentage": 18, "color": "#A9D161" },
+      { "range": "778-900", "percentage": 20, "color": "#009900" }
+    ],
+    "userScore": 767,
+    "message": "Your NB Score lies in the top 70% in All Of India.",
+    "subMessage": "Based on the NB Data"
+  },
+  "accounts": {
+    "total": 14,
+    "breakdown": [
+      { "type": "Credit Card", "count": 4, "color": "#3B82F6" },
+      { "type": "Loan Account", "count": 7, "color": "#10B981" },
+      { "type": "Other Credit", "count": 3, "color": "#F59E0B" }
+    ]
+  }
+}
