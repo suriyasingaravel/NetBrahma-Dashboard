@@ -7,6 +7,7 @@ It visualizes your **NB Score**, **score history trends**, **account breakdown**
 
 ## ✨ Features
 - 🧭 **Score Gauge (Speedometer UI)** – Greets the user and shows the current **NB Score** with a needle gauge (300–900), last refreshed date, and quick actions like **Score Analysis** and **Refresh Now**.
+- 🛣️ **Client-side Routing** – SPA navigation using **React Router**, with a shared `Layout` (Sidebar, Header, Footer) and route-level pages in `src/pages` (e.g., `/summary, /history`).  
 - 📈 **Score History Line Chart** – Interactive line graph with tooltips, responsive labels, and custom markers using **Recharts**.  
 - 🥧 **Accounts Pie Chart** – Visual breakdown of open/closed credit cards and loans.  
 - 📊 **Where You Stand Bar** – Shows your NB score position vs population distribution.  
@@ -18,7 +19,8 @@ It visualizes your **NB Score**, **score history trends**, **account breakdown**
 
 ## 🛠️ Tech Stack
 
-- ⚛️ **React** – UI library  
+- ⚛️ **React** – UI library
+- 🛣️ **React Router DOM** – Client-side routing for SPA navigation 
 - 🖼️ **HTML5** – Semantic structure  
 - 🎨 **CSS3** – Core styling  
 - 💨 **Tailwind CSS** – Utility-first styling framework  
