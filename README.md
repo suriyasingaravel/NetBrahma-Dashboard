@@ -55,5 +55,11 @@ cd NetBrahma-Dashboard
 npm install
 npm run dev
 
+## 🙌 Acknowledgements
+
+- [Recharts](https://recharts.org/) — chart components
+- [Tailwind CSS](https://tailwindcss.com/) — styling
+- [React Icons](https://react-icons.github.io/react-icons/) — beautiful icons
+
 
 
