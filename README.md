@@ -55,6 +55,9 @@ cd NetBrahma-Dashboard
 npm install
 npm run dev
 
+```
+
+---
 ## 🙌 Acknowledgements
 
 - [Recharts](https://recharts.org/) — chart components
