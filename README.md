@@ -29,30 +29,19 @@ It visualizes your **NB Score**, **score history trends**, **account breakdown**
 ---
 
 ## 📂 Project Structure
-.
-├── public/
-│   └── index.html
-├── src/
-│   ├── assets/                  # Static images & icons
-│   ├── components/
-│   │   ├── layout/              # App shell: Sidebar, Header, Footer
-│   │   │   ├── Header.jsx
-│   │   │   ├── Sidebar.jsx
-│   │   │   └── Footer.jsx
-│   │   └── ui/                  # Reusable UI widgets
-│   │       ├── Card.jsx
-│   │       └── ScoreGauge.jsx
-│   ├── data/                    # Mock data (scores, accounts, etc.)
-│   │   └── mockData.json
-│   ├── pages/                   # Route-level views
-│   │   └── Overview.jsx
-│   ├── App.jsx                  # Root component
-│   └── index.js                 # Entry point
-├── tailwind.config.js           # Tailwind CSS config
-├── postcss.config.js            # PostCSS pipeline for Tailwind
-├── package.json                 # Dependencies & scripts
-├── README.md                    # Project docs
-└── .gitignore
+- `public/`
+  - `index.html`
+- `src/`
+  - `assets/` — static images & icons
+  - `components/`
+    - `layout/` — `Header.jsx`, `Sidebar.jsx`, `Footer.jsx`
+    - `ui/` — `Card.jsx`, `ScoreGauge.jsx`
+  - `data/` — `mockData.json`
+  - `pages/` — `Overview.jsx`
+  - `App.jsx` — root component
+  - `index.js` — entry point
+- `tailwind.config.js`, `postcss.config.js`, `package.json`, `README.md`, `.gitignore`
+
 
 
 ---
