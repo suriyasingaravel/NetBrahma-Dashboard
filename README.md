@@ -50,6 +50,5 @@ cd NetBrahma-Dashboard
 npm install
 npm run dev
 
-![Dashboard Overview](./screenshots/overview.png)
-![Score History Graph](./screenshots/score-history.png)
+
 
