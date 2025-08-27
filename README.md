@@ -1,4 +1,4 @@
-## 📊 NetBrahma-Dashboard Score Dashboard
+## 📊 NetBrahma- Score Dashboard
 An interactive and responsive **credit score dashboard** built with **React** to track credit scores and provide financial insights.  
 It visualizes your **NB Score**, **score history trends**, **account breakdown**, and **comparative position** against the overall population — all presented with interactive charts powered by **Recharts** and styled using **Tailwind CSS** for a modern, user-friendly experience.
 
