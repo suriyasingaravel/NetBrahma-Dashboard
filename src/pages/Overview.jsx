@@ -467,8 +467,8 @@ const Overview = () => {
             </div>
 
             {/* subscription */}
-            <div className="rounded-[6px] shadow-sm border border-[#FFF8D4] bg-gradient-to-l from-[#F7DC6F] to-[#edd05c] p-5 sm:p-6 lg:p-7">
-              <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 sm:gap-6">
+            <div className="rounded-[8px] shadow-sm border border-[#FFF8D4] bg-gradient-to-l from-[#F7DC6F] to-[#edd05c] p-5 sm:p-6 lg:p-7">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 sm:gap-6">
                 <div className="flex-1">
                   <p className="text-[15px] sm:text-[16px] leading-relaxed text-[#262626] font-normal max-w-none md:max-w-[520px]">
                     You currently have an active subscription. You will be able

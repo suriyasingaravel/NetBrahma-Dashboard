@@ -2,8 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <link rel="icon" type="image/svg+xml" href="./src/assets/logo.jpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Restrict zoom -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+
     <title>NetBramha Dashboard</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,9 +19,67 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
+
+    <style>
+      html,
+      body {
+        -ms-touch-action: pan-x pan-y; /* IE/Edge legacy */
+        touch-action: pan-x pan-y; /* modern browsers */
+      }
+
+      /* Prevent iOS text size adjust after orientation changes */
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+    </style>
   </head>
+
   <body class="font-sans">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <script>
+      // 1) Prevent pinch-zoom on iOS Safari
+      // (non-standard gesture* events are Safari-specific)
+      function blockGesture(e) {
+        e.preventDefault();
+      }
+      document.addEventListener("gesturestart", blockGesture);
+      document.addEventListener("gesturechange", blockGesture);
+      document.addEventListener("gestureend", blockGesture);
+
+      // 2) Prevent double-tap zoom on iOS
+      let lastTouchEnd = 0;
+      document.addEventListener(
+        "touchend",
+        function (e) {
+          const now = Date.now();
+          if (now - lastTouchEnd <= 300) {
+            e.preventDefault();
+          }
+          lastTouchEnd = now;
+        },
+        false
+      );
+
+      // 3) Prevent ctrl/cmd + wheel zoom on desktop
+      window.addEventListener(
+        "wheel",
+        function (e) {
+          if (e.ctrlKey || e.metaKey) e.preventDefault();
+        },
+        { passive: false }
+      );
+
+      // 4) Prevent ctrl/cmd + '+'/'-' keyboard zoom
+      window.addEventListener("keydown", function (e) {
+        if (
+          (e.ctrlKey || e.metaKey) &&
+          (e.key === "+" || e.key === "-" || e.key === "=")
+        ) {
+          e.preventDefault();
+        }
+      });
+    </script>
   </body>
 </html>

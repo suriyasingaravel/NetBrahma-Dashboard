@@ -1,6 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import Logo from "../../assets/netbrahma-logo.png";
+import nbicon from "../../assets/logo.jpg";
+import nbname from "../../assets/nb-logo.png";
 import { GoHome } from "react-icons/go";
 import { RxBell } from "react-icons/rx";
 import { BsSpeedometer2 } from "react-icons/bs";
@@ -74,9 +76,18 @@ const Sidebar = ({ isOpen, onClose }) => {
     >
       <div className="flex flex-col h-full">
         {/* Logo */}
-        <div className="flex items-center px-6 py-2 border-b border-[#008A00]">
-          <div className="flex items-center gap-2 justify-center px-2 py-1 rounded text-black font-bold text-sm">
-            <img src={Logo} alt="Netbramha Logo" />
+        <div className="flex items-center px-2 py-4 mt-4 border-b border-[#008A00]">
+          <div className="flex items-center gap-2 justify-center px-2 py-1 pl-3 rounded text-black font-bold text-sm">
+            <img
+              className="w-[18px] h-[18px] object-cover"
+              src={nbicon}
+              alt="Netbramha Logo"
+            />
+            <img
+              className="w-[147px] h-[17px] object-cover"
+              src={nbname}
+              alt="Netbramha Logo"
+            />
           </div>
         </div>
 
