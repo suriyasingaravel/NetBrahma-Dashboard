@@ -11,7 +11,6 @@ It visualizes your **NB Score**, **score history trends**, **account breakdown**
 - 🥧 **Accounts Pie Chart** – Visual breakdown of open/closed credit cards and loans.  
 - 📊 **Where You Stand Bar** – Shows your NB score position vs population distribution.  
 - 🛠️ **Responsive Design** – Optimized for both desktop and mobile with **Tailwind CSS**.  
-- 🧾 **Report & Subscription Section** – Info cards with CTAs.  
 - 📌 **Tooltip-enabled Info Icons** – Contextual help on “Your Accounts”, “NB Score History”, and “Where You Stand”.  
 - 🧩 **Reusable Components** – `Card`, `ScoreGauge`, `Footer`, `Sidebar`, and `Header`.
 
